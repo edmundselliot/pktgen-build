@@ -23,8 +23,7 @@ RUN apt-get update && \
         python3-pyelftools \
         lshw \
         pciutils \
-        pkg-config
-        && \
+        pkg-config && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
